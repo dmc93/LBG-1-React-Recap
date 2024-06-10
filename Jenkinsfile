@@ -15,7 +15,7 @@ pipeline {
                 bat '''
                 pm2 delete all
                 '''
-                //test
+                //test here
             }
         }
         stage('Run') {
